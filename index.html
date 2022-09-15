@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class = "siteBody">
+    <h1>Tic Tac Toe</h1>
+    <p id = "instructions">Take turns placing X's and O's on the grid by clicking on
+        the square you would like to place a symbol. <br>
+        The first to connect three in a row wins, good luck!
+    </p>
+    <h3 >
+        <button id = "start" onclick = "gameStart()">Start Game</button>
+    </h3>
+    <p id = "turn"></p>
+    <div class = "gridContainer">
+        <div class = "gridItem" id = "b1">
+            <button class = "button" onclick = "m1()"></button>
+        </div>
+        <div class = "gridItem" id = "b2">
+            <button class = "button" onclick = "m2()"></button>
+        </div>
+        <div class = "gridItem" id = "b3">
+            <button class = "button" onclick = "m3()"></button>
+        </div>
+        <div class = "gridItem" id = "b4">
+            <button class = "button" onclick = "m4()"></button>
+        </div>
+        <div class = "gridItem" id = "b5">
+            <button class = "button" onclick = "m5()"></button>
+        </div>
+        <div class = "gridItem" id = "b6">
+            <button class = "button" onclick = "m6()"></button>
+        </div>
+        <div class = "gridItem" id = "b7">
+            <button class = "button" onclick = "m7()"></button>
+        </div>
+        <div class = "gridItem" id = "b8">
+            <button class = "button" onclick = "m8()"></button>
+        </div>
+        <div class = "gridItem" id = "b9">
+            <button class = "button" onclick = "m9()"></button>
+        </div>
+    </div>
+    <p id = "tie"></p>
+    <p id = "gameEnd"></p>
+    <script src = "index.js"></script>
+</body>
+</html>
